@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="pipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="220" fill="#0b1220" rx="18"/>
+  <g fill="none" stroke="url(#pipe)" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <path d="M60 110 H240"/>
+    <path d="M340 110 H520"/>
+    <path d="M620 110 H800"/>
+  </g>
+  <g fill="#0f172a" stroke="#22d3ee" stroke-width="2">
+    <circle cx="60" cy="110" r="26"/>
+    <circle cx="300" cy="110" r="26"/>
+    <circle cx="560" cy="110" r="26"/>
+    <circle cx="840" cy="110" r="26"/>
+  </g>
+  <g font-family="'Space Grotesk', sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">
+    <text x="60" y="155">Ingest</text>
+    <text x="300" y="155">Transform</text>
+    <text x="560" y="155">Model</text>
+    <text x="840" y="155">Insight</text>
+  </g>
+</svg>

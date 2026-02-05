@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#1a2b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="22" fill="url(#bg)"/>
+  <g stroke="#1e3a5f" stroke-width="1">
+    <path d="M60 90 H580"/>
+    <path d="M60 150 H580"/>
+    <path d="M60 210 H580"/>
+    <path d="M60 270 H580"/>
+    <path d="M60 330 H580"/>
+  </g>
+  <g fill="#0f172a" stroke="#22d3ee" stroke-width="2">
+    <rect x="90" y="130" width="200" height="120" rx="14"/>
+    <rect x="320" y="180" width="220" height="120" rx="14"/>
+  </g>
+  <g font-family="'Space Grotesk', sans-serif" font-size="14" fill="#e2e8f0">
+    <text x="90" y="80">Kolkata · ICSE Schooling</text>
+    <text x="110" y="165">Maths + Logic</text>
+    <text x="110" y="185">Python · Java</text>
+    <text x="350" y="215">Computer Systems</text>
+  </g>
+  <circle cx="520" cy="120" r="50" fill="#22d3ee" opacity="0.25"/>
+</svg>

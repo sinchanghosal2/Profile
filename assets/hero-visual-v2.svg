@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="520" viewBox="0 0 700 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0f2c3f"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="520" rx="24" fill="url(#bg)"/>
+  <g stroke="#1e3a5f" stroke-width="1">
+    <path d="M40 90 H660"/>
+    <path d="M40 170 H660"/>
+    <path d="M40 250 H660"/>
+    <path d="M40 330 H660"/>
+    <path d="M40 410 H660"/>
+  </g>
+  <g fill="#0f172a" stroke="#22d3ee" stroke-width="2">
+    <rect x="70" y="110" width="190" height="95" rx="14"/>
+    <rect x="260" y="220" width="190" height="95" rx="14"/>
+    <rect x="470" y="130" width="170" height="95" rx="14"/>
+  </g>
+  <g stroke="url(#glow)" stroke-width="4" stroke-linecap="round">
+    <path d="M170 205 C230 240, 260 240, 320 260"/>
+    <path d="M430 220 C470 210, 520 200, 560 180"/>
+  </g>
+  <g font-family="'Space Grotesk', sans-serif" font-size="13" fill="#e2e8f0">
+    <text x="90" y="145">Data Engineering</text>
+    <text x="90" y="165">ETL · Modeling · Governance</text>
+    <text x="280" y="255">Analytics & Reporting</text>
+    <text x="280" y="275">Power BI · QuickSight</text>
+    <text x="490" y="165">ML Enablement</text>
+    <text x="490" y="185">Feature Pipelines</text>
+    <text x="90" y="355">Azure: Databricks · ADF · DevOps</text>
+    <text x="90" y="380">AWS: Redshift · S3 · Airflow</text>
+  </g>
+  <g fill="#22d3ee" opacity="0.25">
+    <circle cx="590" cy="370" r="80"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#1c2230"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="22" fill="url(#bg)"/>
+  <g stroke="#1e3a5f" stroke-width="1">
+    <path d="M80 120 H560"/>
+    <path d="M80 200 H560"/>
+    <path d="M80 280 H560"/>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round">
+    <path d="M140 230 C220 150, 360 150, 500 230"/>
+  </g>
+  <g fill="#22d3ee" opacity="0.4">
+    <circle cx="320" cy="190" r="90"/>
+  </g>
+  <g font-family="'Space Grotesk', sans-serif" font-size="18" fill="#e2e8f0" text-anchor="middle">
+    <text x="320" y="150">Next Opportunity</text>
+    <text x="320" y="190">Your Team</text>
+    <text x="320" y="260" font-size="12" fill="#9fb3c8">Let’s build the next chapter together.</text>
+  </g>
+</svg>

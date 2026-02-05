@@ -278,14 +278,16 @@ if (runnerCanvas) {
     requestAnimationFrame(loop);
   };
 
-  window.addEventListener('keydown', (event) => {
-    if (event.code === 'Space') {
-      event.preventDefault();
-      jump();
-    }
+  runnerCanvas.addEventListener('click', (event) => {
+    runnerCanvas.focus();
+    jump();
   });
 
-  runnerCanvas.addEventListener('click', jump);
+  runnerCanvas.addEventListener('contextmenu', (event) => {
+    event.preventDefault();
+    runnerCanvas.focus();
+    jump();
+  });
   runnerCanvas.addEventListener('touchstart', (event) => {
     event.preventDefault();
     jump();
